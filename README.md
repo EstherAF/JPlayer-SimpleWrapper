@@ -4,13 +4,13 @@ JPlayer-SimpleWrapper
 Wrapper of JPlayer to make its use easier.
 It works with HTML tags, and you don't have to use JPlayer builders. It's specially usefull if you have to show players for a lot of media contents, all with the same format and extensions.
 
-####Example of use
+### Example of use
 
 	<div id="3" class="player audio" path="folder/file_name_without_extension"></div>
 
   With this line, this script is going to load media file with the extensions specified in the script (by default 'm4a')
   
-####HTML Params
+### HTML Params
 
 This script works with all HTML tags with the class 'player'. It find all '.player' tags, and create the HTML and jPlayer object necessary. Params:
 
@@ -23,7 +23,7 @@ This script works with all HTML tags with the class 'player'. It find all '.play
 **id**, necessary attribute. Its value doesn't matters (while it's unique).
 **path**, necessary attribute. Name and path of file, without it's extension. In specified path must be all files with provided name and necessary extensions (explained later).
 
-####Inner JavaScript variables
+### Inner JavaScript variables
 
 There are some variables in the script probably interesting to modify.
   
